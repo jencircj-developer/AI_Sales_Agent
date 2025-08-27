@@ -1,0 +1,91 @@
+"model_id","review_id","user_name","star_rating","verified_purchase","review_date","review_text","brand","model_name","price","screen_size","battery","camera_main","ram","storage","has_5g","water_resistant","units_sold"
+1,1,"Safiyya",4,FALSE,2023-09-11,"Battery life lasts all day ( 4000 mAh).","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,2,"Hannah",2,FALSE,2023-01-26,"No 5G support is a dealbreaker.","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,3,"Marissa",5,FALSE,2023-04-07,"6 GB RAM makes it super fast.","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,4,"Min",5,TRUE,2023-04-27,"Love the 6.1 inch screen.","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,5,"Marcus",2,TRUE,2024-03-21,"Screen is too small.","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,6,"Ana",1,TRUE,2023-05-14,"No 5G support is a dealbreaker.","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,7,"Aaron",4,TRUE,2023-11-10,"Battery life lasts all day ( 4000 mAh).","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,8,"Tyler",4,TRUE,2023-10-06,"Battery life lasts all day ( 4000 mAh).","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,9,"Luc",4,FALSE,2024-03-01,"The 48MP camera is amazing!","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,10,"Catrina",2,TRUE,2024-02-29,"No 5G support is a dealbreaker.","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,11,"Sydney",5,TRUE,2023-09-09,"Love the 6.1 inch screen.","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,12,"Angela",3,FALSE,2024-03-19,"Decent phone, but Great value for the price!","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,13,"Shylanda",5,TRUE,2023-06-22,"Battery life lasts all day ( 4000 mAh).","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,14,"Shanelle",4,TRUE,2024-04-10,"Great value for the price!","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+1,15,"Muhjar",3,FALSE,2023-08-27,"Decent phone, but Great value for the price!","Apple","iPhone 14",799,6.1,4000,"48MP",6,128,TRUE,"None",12000
+2,16,"Mamoon",5,TRUE,2023-03-26,"Battery life lasts all day ( 3000 mAh).","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,17,"Hafsa",2,TRUE,2023-02-02,"Battery drains too fast.","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,18,"Daveon",4,TRUE,2024-01-30,"12 GB RAM makes it super fast.","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,19,"Hiwaaya",2,TRUE,2023-04-14,"Camera quality is disappointing.","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,20,"David",5,TRUE,2023-06-22,"Love the 6.1 inch screen.","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,21,"Alyssa",5,TRUE,2024-02-02,"The 48MP camera is amazing!","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,22,"Haala",5,TRUE,2023-05-10,"Battery life lasts all day ( 3000 mAh).","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,23,"Etirza",1,TRUE,2024-04-30,"No 5G support is a dealbreaker.","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,24,"Christy",4,FALSE,2023-10-28,"Battery life lasts all day ( 3000 mAh).","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,25,"Danny",3,TRUE,2023-09-13,"Decent phone, but Love the 6.1 inch screen.","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,26,"Muslih",4,TRUE,2023-05-06,"12 GB RAM makes it super fast.","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,27,"Jamaal",4,TRUE,2023-02-04,"Battery life lasts all day ( 3000 mAh).","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,28,"Qaaid",5,TRUE,2023-06-05,"The 48MP camera is amazing!","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,29,"Shafeeqa",3,FALSE,2023-02-14,"Decent phone, but Too expensive for what you get.","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+2,30,"Abdul Haleem",5,FALSE,2023-05-24,"12 GB RAM makes it super fast.","Apple","iPhone 15",999,6.1,3000,"48MP",12,256,TRUE,"None",15000
+3,31,"Alicia",5,TRUE,2024-04-08,"6 GB RAM makes it super fast.","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,32,"Shane",5,FALSE,2023-08-25,"The 48MP camera is amazing!","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,33,"Magnus",5,TRUE,2024-03-04,"Great value for the price!","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,34,"Alison",5,FALSE,2023-05-16,"Battery life lasts all day ( 5000 mAh).","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,35,"Alicia",4,TRUE,2023-09-06,"Battery life lasts all day ( 5000 mAh).","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,36,"Faraj",3,FALSE,2023-09-10,"Decent phone, but Great value for the price!","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,37,"Alex",5,FALSE,2023-04-12,"Battery life lasts all day ( 5000 mAh).","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,38,"Yonghyuk",2,TRUE,2023-04-12,"Screen is too small.","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,39,"Nathaniel",4,TRUE,2024-03-31,"Love the 6.1 inch screen.","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,40,"Mequila",5,TRUE,2024-01-13,"Battery life lasts all day ( 5000 mAh).","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,41,"Roderick",2,TRUE,2023-04-05,"Camera quality is disappointing.","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,42,"Maiya",5,TRUE,2024-02-25,"Battery life lasts all day ( 5000 mAh).","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,43,"Mary",5,TRUE,2024-04-15,"Battery life lasts all day ( 5000 mAh).","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,44,"Yoseline",3,TRUE,2023-09-13,"Decent phone, but The 48MP camera is amazing!","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+3,45,"Devin",5,FALSE,2023-08-21,"Love the 6.1 inch screen.","Samsung","Galaxy S22",699,6.1,5000,"48MP",6,128,FALSE,"None",10000
+4,46,"Delaney",5,TRUE,2023-01-10,"12 GB RAM makes it super fast.","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,47,"Nazmiyya",4,TRUE,2024-01-14,"Love the 6.1 inch screen.","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,48,"Kulthum",5,TRUE,2023-07-07,"Battery life lasts all day ( 5000 mAh).","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,49,"Annie",5,FALSE,2023-11-27,"Great value for the price!","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,50,"Linda",5,TRUE,2024-04-19,"12 GB RAM makes it super fast.","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,51,"Derek",4,TRUE,2024-02-11,"Love the 6.1 inch screen.","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,52,"Jozlyn",4,TRUE,2023-06-10,"Great value for the price!","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,53,"Yoonjoo",3,TRUE,2023-08-02,"Decent phone, but No 5G support is a dealbreaker.","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,54,"Kirsten",2,TRUE,2023-09-28,"Too expensive for what you get.","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,55,"Brionna",3,TRUE,2023-03-09,"Decent phone, but Battery life lasts all day ( 5000 mAh).","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,56,"Shuraih",5,TRUE,2023-11-12,"Battery life lasts all day ( 5000 mAh).","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,57,"Rachel",4,FALSE,2023-04-13,"Great value for the price!","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,58,"Charlie",3,FALSE,2023-05-18,"Decent phone, but Battery life lasts all day ( 5000 mAh).","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,59,"Kelsey",5,TRUE,2023-07-19,"12 GB RAM makes it super fast.","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+4,60,"Parker",2,TRUE,2023-08-11,"Battery drains too fast.","Samsung","Galaxy S23",899,6.1,5000,"108MP",12,64,FALSE,"IP68",13000
+5,61,"Sheena",4,TRUE,2024-04-20,"6 GB RAM makes it super fast.","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,62,"Keiondre",5,TRUE,2023-12-21,"6 GB RAM makes it super fast.","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,63,"Afnaan",2,TRUE,2023-06-22,"Too expensive for what you get.","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,64,"Suhaad",5,TRUE,2023-03-25,"The 108MP camera is amazing!","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,65,"Aaron",3,TRUE,2023-07-02,"Decent phone, but Love the 6.5 inch screen.","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,66,"Chager",4,FALSE,2023-04-30,"Great value for the price!","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,67,"Cody",4,TRUE,2023-06-25,"Love the 6.5 inch screen.","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,68,"Keegan",5,TRUE,2023-01-08,"Love the 6.5 inch screen.","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,69,"Dazhean",5,TRUE,2023-12-18,"6 GB RAM makes it super fast.","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,70,"Adhraaa",4,TRUE,2024-01-22,"The 108MP camera is amazing!","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,71,"Crissela",4,FALSE,2023-04-15,"Battery life lasts all day ( 3000 mAh).","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,72,"Sara",5,TRUE,2023-06-25,"6 GB RAM makes it super fast.","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,73,"Jamillah",3,TRUE,2023-03-16,"Decent phone, but Camera quality is disappointing.","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,74,"Alan",1,TRUE,2023-05-21,"Battery drains too fast.","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+5,75,"Dao",4,TRUE,2023-04-13,"6 GB RAM makes it super fast.","Google","Pixel 7",599,6.5,3000,"108MP",6,128,FALSE,"None",8000
+6,76,"Elena",5,TRUE,2023-01-18,"Great value for the price!","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,77,"Ronnie",4,TRUE,2023-12-25,"Love the 6.5 inch screen.","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,78,"Tre'Vaughn",3,FALSE,2023-12-07,"Decent phone, but The 12MP camera is amazing!","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,79,"Mamoon",3,TRUE,2023-05-13,"Decent phone, but The 12MP camera is amazing!","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,80,"Araceli",5,TRUE,2023-01-31,"6 GB RAM makes it super fast.","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,81,"Bradley",5,FALSE,2023-11-08,"The 12MP camera is amazing!","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,82,"Derek",5,FALSE,2023-01-20,"Battery life lasts all day ( 3000 mAh).","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,83,"Nikasia",2,TRUE,2023-07-29,"Too expensive for what you get.","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,84,"Latasha",5,TRUE,2023-04-13,"Great value for the price!","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,85,"Jasmine",3,TRUE,2023-08-29,"Decent phone, but No 5G support is a dealbreaker.","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,86,"Jeremy",5,FALSE,2023-07-14,"The 12MP camera is amazing!","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,87,"Shakeel",5,TRUE,2023-08-28,"Great value for the price!","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,88,"Trina",5,TRUE,2023-09-21,"Love the 6.5 inch screen.","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,89,"Abdul Qayyoom",2,TRUE,2023-10-02,"Camera quality is disappointing.","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000
+6,90,"Luis",5,TRUE,2023-04-24,"Great value for the price!","Google","Pixel 8",799,6.5,3000,"12MP",6,128,FALSE,"IP68",9000

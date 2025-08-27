@@ -1,0 +1,52 @@
+sku,name,type,price,description
+P001,Galaxy X1,Smartphone,799,High-performance smartphone with AMOLED display and 128GB storage
+P002,Galaxy X2,Smartphone,899,Advanced smartphone with enhanced camera and 256GB storage
+P003,iPhone 14,Smartphone,999,Latest iPhone model with dual-camera system and A15 chip
+P004,iPhone 14 Pro,Smartphone,1199,Premium iPhone with ProMotion display and triple-camera system
+P005,Pixel 7,Smartphone,699,Google Pixel with pure Android experience and excellent camera
+P006,Pixel 7 Pro,Smartphone,899,High-end Pixel device with advanced AI camera features
+P007,OnePlus 10,Smartphone,749,Fast-charging smartphone with Snapdragon processor
+P008,OnePlus 10 Pro,Smartphone,969,High-performance OnePlus with flagship specifications
+P009,Samsung Tab S8,Tablet,649,Android tablet with large AMOLED screen and stylus support
+P010,iPad Air 5,Tablet,599,Lightweight iPad with A15 chip and Apple Pencil support
+P011,iPad Pro 12.9,Tablet,1099,High-end iPad with Liquid Retina XDR display
+P012,Galaxy Tab A8,Tablet,299,Budget-friendly Android tablet with decent performance
+P013,Xiaomi Mi 12,Smartphone,699,Affordable flagship with great battery life
+P014,Xiaomi Mi 12 Pro,Smartphone,849,High-end Xiaomi with advanced camera and display
+P015,Redmi Note 12,Smartphone,399,Mid-range phone with solid performance
+P016,Redmi Note 12 Pro,Smartphone,499,Enhanced Redmi with better camera and storage
+P017,Oppo Find X5,Smartphone,749,Premium Oppo phone with fast charging
+P018,Oppo Find X5 Pro,Smartphone,999,Flagship Oppo with stunning display and camera
+P019,Vivo X80,Smartphone,699,High-performance Vivo device with AI camera
+P020,Vivo X80 Pro,Smartphone,899,Pro Vivo with top-tier camera system
+P021,Samsung Galaxy Z Flip,Smartphone,1099,Foldable smartphone with compact design
+P022,Samsung Galaxy Z Fold,Smartphone,1799,Foldable smartphone with large display
+P023,iPhone SE 3,Smartphone,429,Budget iPhone with classic design
+P024,iPhone 13,Smartphone,799,Previous-gen iPhone with solid performance
+P025,iPhone 13 Pro,Smartphone,999,High-end iPhone with Pro camera system
+P026,Pixel 6a,Smartphone,449,Affordable Pixel with good camera
+P027,Pixel 6,Smartphone,599,Pixel with balanced specs and performance
+P028,Pixel 6 Pro,Smartphone,899,High-end Pixel with advanced AI features
+P029,OnePlus Nord 2,Smartphone,399,Mid-range OnePlus with fast charging
+P030,OnePlus Nord 2T,Smartphone,449,Improved Nord 2 with better camera
+P031,Samsung Galaxy A53,Smartphone,349,Affordable Samsung with good display
+P032,Samsung Galaxy A73,Smartphone,499,Enhanced Samsung with better camera
+P033,Xiaomi Redmi 10,Smartphone,199,Budget Xiaomi phone
+P034,Xiaomi Poco X4,Smartphone,299,Affordable Xiaomi with good performance
+P035,Oppo Reno 7,Smartphone,399,Mid-range Oppo with sleek design
+P036,Oppo Reno 7 Pro,Smartphone,499,Enhanced Oppo with better specs
+P037,Vivo V23,Smartphone,399,Stylish Vivo device with good camera
+P038,Vivo V23 Pro,Smartphone,499,High-end Vivo with advanced features
+P039,Samsung Galaxy M33,Smartphone,279,Budget Samsung with long battery life
+P040,Samsung Galaxy M53,Smartphone,399,Enhanced Samsung with better camera
+P041,iPad Mini 6,Tablet,499,Compact iPad with good performance
+P042,iPad 10,Tablet,449,Affordable iPad with solid features
+P043,Galaxy Tab S7,Tablet,599,High-performance Samsung tablet
+P044,Galaxy Tab S7+,Tablet,749,Premium Samsung tablet with large screen
+P045,Lenovo Tab P11,Tablet,259,Budget Lenovo tablet
+P046,Lenovo Tab P12 Pro,Tablet,499,Enhanced Lenovo tablet with stylus support
+P047,Amazon Fire HD 10,Tablet,149,Basic Android tablet for media consumption
+P048,Amazon Fire HD 8,Tablet,89,Compact Amazon tablet for light usage
+P049,Huawei MatePad 11,Tablet,329,Affordable Huawei tablet with good display
+P050,Huawei MatePad Pro,Tablet,599,High-end Huawei tablet with stylus
+P051,iPhone 15,Smartphone,1024,Latest iPhone model with dual-camera system and A16 chip
