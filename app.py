@@ -6,6 +6,9 @@ import streamlit as st
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 
+# Get Ollama API from environment variable (set in docker-compose.yml)
+API_URL = os.getenv("OLLAMA_API", "http://ollama:11434")
+
 # --- Session state setup ---
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
@@ -114,7 +117,7 @@ def generate_ai_summary(results, reviews, query, policy_notes=None):
         try:
             import requests, json
             response = requests.post(
-                'http://localhost:11434/api/generate',
+                f"{API_URL}/api/generate",
                 json={"model": "mistral", "prompt": summary_prompt},
                 stream=True,
                 timeout=60,
@@ -153,7 +156,7 @@ def call_order_ai(prompt_text, system_role="You are a friendly Order AI assistan
         try:
             import requests, json
             response = requests.post(
-                'http://localhost:11434/api/generate',
+                f"{API_URL}/api/generate",
                 json={"model": "mistral", "prompt": prompt_text},
                 stream=True,
                 timeout=60,

@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    command: serve
+
+  streamlit_app:
+    build: .
+    container_name: streamlit_app
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app   # Mount your local folder into /app in the container
+    depends_on:
+      - ollama
+    environment:
+      - OLLAMA_API=http://ollama:11434
+
+volumes:
+  ollama_data:
