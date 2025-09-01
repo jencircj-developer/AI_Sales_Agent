@@ -1,0 +1,52 @@
+sku,name,type,price,description,compatible_skus
+A001,Samsung Galaxy S25 Case,Case,29,Durable protective case, SM-S931BDBDEUB
+A002,Samsung Galaxy S25 Screen Protector,Screen Protector,19,Tempered glass protector, SM-S931BDBDEUB
+A003,Samsung Galaxy S25 Ultra Case,Case,29,Durable protective case, SM-S938BZKGEUB
+A004,Samsung Galaxy S25 Ultra Screen Protector,Screen Protector,19,Tempered glass protector, SM-S938BZKGEUB
+A005,iPhone 15 Case,Case,39,Shockproof case, MTP03QN/A
+A006,iPhone 15 Screen Protector,Screen Protector,19,Tempered glass, MTP03QN/A
+A007,iPhone 15 Pro Case,Case,45,Premium leather case, MTP03QN/A
+A008,iPhone 15 Pro Screen Protector,Screen Protector,25,High-quality tempered glass, MTP03QN/A
+A009,Pixel 9 Case,Case,29,Soft-touch protective case, GA05226-GB
+A010,Pixel 9 Screen Protector,Screen Protector,19,Tempered glass, GA05226-GB
+A011,Pixel 9a Pro Case,Case,35,Durable protective case, GA05769-GB
+A012,Pixel 9a Pro Screen Protector,Screen Protector,19,High-quality tempered glass, GA05769-GB
+A013,OnePlus Nord Case,Case,29,Shockproof case, 5011110198
+A014,OnePlus Nord Screen Protector,Screen Protector,19,Tempered glass, 5011110198
+A015,OnePlus 13R Pro Case,Case,39,Premium protective case, 5011111048
+A016,OnePlus 13R Pro Screen Protector,Screen Protector,19,High-quality tempered glass, 5011111048
+A017,Samsung Tab S8 Cover,Case,49,Protective tablet cover, P009
+A018,Samsung Tab S8 Screen Protector,Screen Protector,29,Tempered glass, P009
+A019,iPad Air 5 Case,Case,39,Protective iPad cover, P010
+A020,iPad Air 5 Screen Protector,Screen Protector,19,Tempered glass, P010
+A021,iPad Pro 12.9 Case,Case,49,Premium iPad cover, P011
+A022,iPad Pro 12.9 Screen Protector,Screen Protector,25,High-quality tempered glass, P011
+A023,Galaxy Tab A8 Case,Case,29,Durable tablet case, P012
+A024,Galaxy Tab A8 Screen Protector,Screen Protector,19,Tempered glass, P012
+A025,Xiaomi Mi 12 Case,Case,29,Protective case, P013
+A026,Xiaomi Mi 12 Screen Protector,Screen Protector,19,Tempered glass, P013
+A027,Xiaomi Mi 12 Pro Case,Case,39,Premium case, P014
+A028,Xiaomi Mi 12 Pro Screen Protector,Screen Protector,19,High-quality tempered glass, P014
+A029,Redmi Note 12 Case,Case,19,Protective cover, P015
+A030,Redmi Note 12 Screen Protector,Screen Protector,9,Tempered glass, P015
+A031,Redmi Note 12 Pro Case,Case,25,Durable cover, P016
+A032,Redmi Note 12 Pro Screen Protector,Screen Protector,19,Tempered glass, P016
+A033,Oppo Find X5 Case,Case,29,Protective case, P017
+A034,Oppo Find X5 Screen Protector,Screen Protector,19,Tempered glass, P017
+A035,Oppo Find X5 Pro Case,Case,39,Premium case, P018
+A036,Oppo Find X5 Pro Screen Protector,Screen Protector,25,High-quality tempered glass, P018
+A037,Vivo X80 Case,Case,29,Durable case, P019
+A038,Vivo X80 Screen Protector,Screen Protector,19,Tempered glass, P019
+A039,Vivo X80 Pro Case,Case,39,Premium case, P020
+A040,Vivo X80 Pro Screen Protector,Screen Protector,25,Tempered glass, P020
+A041,Samsung Galaxy Z Flip Case,Case,49,Protective case, SM-F761BZKGEUB
+A042,Samsung Galaxy Z Fold Case,Case,59,Premium foldable phone cover, SM-F761BZKGEUB
+A043,iPhone SE 3 Case,Case,29,Shockproof case, P023
+A044,iPhone 13 Case,Case,39,Protective cover, P024
+A045,iPhone 13 Pro Case,Case,45,Premium case, P025
+A046,Pixel 6a Case,Case,25,Durable case, P026
+A047,Pixel 6 Case,Case,29,Soft-touch case, P027
+A048,Pixel 6 Pro Case,Case,39,Premium case, P028
+A049,OnePlus Nord 2 Case,Case,19,Protective case, P029
+A050,OnePlus Nord 2T Case,Case,25,Durable case, P030
+A051,Samsung Galaxy A56 Case,Case,19,Protective case, SM-A566BZKCEUB

@@ -1,14 +1,14 @@
 role,allowed_price_range,allowed_brands,notes
-Intern,0-400,"Nokia, Motorola, Realme, Vivo","Only budget devices allowed; no iPhones or Samsung"
-Junior Staff,200-600,"Samsung, Motorola, Xiaomi","Can choose mid-range but not flagship phones"
-Manager,400-900,"Samsung, Google, Xiaomi, OnePlus","Can order upper mid-tier but not iPhone Pro models"
+Intern,0-400,"HMD, HONOR","Only budget devices allowed; no iPhones or Samsung"
+Junior Staff,200-600,"Samsung, Motorola, OnePlus","Can choose mid-range but not flagship phones"
+Manager,400-900,"Samsung, Google, OnePlus","Can order upper mid-tier but not iPhone Pro models"
 Senior Manager,500-1200,"Apple, Samsung, Google, OnePlus","Allowed high-end but no ultra-premium special editions"
 Director,800-1500,"Apple, Samsung, Google, OnePlus","All premium phones allowed except luxury models"
 Executive,1000-2000,"Apple, Samsung, Google","All top devices allowed; no restrictions"
-Field Staff,0-500,"Nokia, Motorola, Xiaomi","Durable, cost-effective models only"
+Field Staff,0-500,"HMD, Nokia, Motorola","Durable, cost-effective models only"
 IT Support,0-800,"Samsung, Google, OnePlus","Must ensure compatibility with company software"
-Finance,300-1000,"Apple, Samsung, Google, Xiaomi","Restricted from ultra-luxury editions due to budget compliance"
-HR,200-700,"Samsung, Google, Xiaomi","Focus on mid-range, reliable devices for communication"
+Finance,300-1000,"Apple, Samsung, Google","Restricted from ultra-luxury editions due to budget compliance"
+HR,200-700,"Samsung, Google","Focus on mid-range, reliable devices for communication"
 
 
 

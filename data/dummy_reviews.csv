@@ -1,0 +1,142 @@
+model_name;star_rating;review_text
+Apple iPhone 16e 5G, 128 Gt, Musta;4.7;Excellent camera. Limited storage options. Overall a solid device.
+Apple iPhone 16e 5G, 128 Gt, Valkoinen;4.5;Smooth UI. Limited storage options. Worth the investment.
+Apple iPhone 16e 5G, 256 Gt, Musta;4.6;Good value for money. Camera struggles in low light. Worth the investment.
+Apple iPhone 16e 5G, 256 Gt, Valkoinen;4.6,Good value for money. A bit pricey. Meets expectations.
+Apple iPhone 15 5G, 128 Gt, Musta;3.8,Sleek design. A bit pricey. Meets expectations.
+Apple iPhone 15 5G, 128 Gt, Pinkki;4.9,Powerful processor. A bit pricey. Overall a solid device.
+Apple iPhone 15 5G, 128 Gt, Sininen;4.1,Sleek design. Software glitches occasionally. Worth the investment.
+Apple iPhone 15 5G, 128 Gt, Vihre√§;4.0,Smooth UI. A bit pricey. Overall a solid device.
+Apple iPhone 15 Plus 5G, 128 Gt, Musta;4.6,Long battery life. Camera struggles in low light. Meets expectations.
+Apple iPhone 16 Plus 5G, 128 Gt, Musta;3.6,Long battery life. Camera struggles in low light. Overall a solid device.
+Apple iPhone 16 Plus 5G, 128 Gt, Valkoinen;4.5,Fast performance. A bit pricey. Meets expectations.
+Apple iPhone 16 Plus 5G, 128 Gt, Pinkki;3.9,Great display. Software glitches occasionally. Meets expectations.
+Apple iPhone 16 Plus 5G, 128 Gt, Ultramariini;3.7,Sleek design. Battery could be better. Meets expectations.
+Apple iPhone 16 Plus 5G, 128 Gt, Sinivihre√§;4.8,Excellent camera. Heats up sometimes. Meets expectations.
+Apple iPhone 16 Plus 5G, 256 Gt, Musta;3.5,Good value for money. Camera struggles in low light. Worth the investment.
+Apple iPhone 16 Plus 5G, 256 Gt, Valkoinen;4.2,Fast performance. Battery could be better. Meets expectations.
+Apple iPhone 16 Plus 5G, 256 Gt, Pinkki;4.0,Powerful processor. Camera struggles in low light. Overall a solid device.
+Apple iPhone 16 Plus 5G, 256 Gt, Ultramariini;4.0,Smooth UI. A bit pricey. Worth the investment.
+Apple iPhone 16 Plus 5G, 256 Gt, Sinivihre√§;4.7,Great display. Software glitches occasionally. Overall a solid device.
+Apple iPhone 16 5G, 128 Gt, Musta;4.7,Excellent camera. Heats up sometimes. Good for its price range.
+Apple iPhone 16 5G, 128 Gt, Valkoinen;4.6,Good value for money. Battery could be better. Meets expectations.
+Apple iPhone 16 5G, 128 Gt, Pinkki;4.7,Fast performance. Limited storage options. Good for its price range.
+Apple iPhone 16 5G, 128 Gt, Ultramariini;4.4,Fast performance. Limited storage options. Decent performance for daily use.
+Apple iPhone 16 5G, 128 Gt, Sinivihre√§;4.7,Good value for money. Software glitches occasionally. Overall a solid device.
+Apple iPhone 16 5G, 256 Gt, Musta;4.7,Sleek design. Heats up sometimes. Overall a solid device.
+Apple iPhone 16 5G, 256 Gt, Valkoinen;3.7,Smooth UI. Battery could be better. Meets expectations.
+Apple iPhone 16 5G, 256 Gt, Pinkki;3.5,High-quality build. A bit pricey. Decent performance for daily use.
+Apple iPhone 16 5G, 256 Gt, Ultramariini;5.0,Excellent camera. A bit pricey. Worth the investment.
+Apple iPhone 16 5G, 256 Gt, Sinivihre√§;4.4,Fast performance. Limited storage options. Good for its price range.
+Apple iPhone 16 5G, 512 Gt, Musta;4.7,Long battery life. Bulky design. Overall a solid device.
+Apple iPhone 16 5G, 512 Gt, Valkoinen;4.7,Powerful processor. Battery could be better. Worth the investment.
+Apple iPhone 16 5G, 512 Gt, Pinkki;3.9,Smooth UI. Camera struggles in low light. Good for its price range.
+Apple iPhone 16 5G, 512 Gt, Ultramariini;4.7,High-quality build. Heats up sometimes. Worth the investment.
+Apple iPhone 16 5G, 512 Gt, Sinivihre√§;4.0,Long battery life. A bit pricey. Good for its price range.
+Apple iPhone 16 Pro 5G, 128 Gt, Mustatitaani;3.7,Excellent camera. Bulky design. Meets expectations.
+Apple iPhone 16 Pro 5G, 128 Gt, Valkotitaani;4.8,Great display. Battery could be better. Meets expectations.
+Apple iPhone 16 Pro 5G, 128 Gt, Arotitaani;4.3;Great display. A bit pricey. Decent performance for daily use.
+Apple iPhone 16 Pro 5G, 128 Gt, Luonnontitaani;4.1;Smooth UI. Heats up sometimes. Decent performance for daily use.
+Apple iPhone 16 Pro 5G, 256 Gt, Mustatitaani;3.7;Long battery life. Software glitches occasionally. Good for its price range.
+Apple iPhone 16 Pro 5G, 256 Gt, Valkotitaani;4.0;High-quality build. A bit pricey. Decent performance for daily use.
+Apple iPhone 16 Pro 5G, 256 Gt, Arotitaani;3.8;Long battery life. Camera struggles in low light. Meets expectations.
+Apple iPhone 16 Pro 5G, 256 Gt, Luonnontitaani;4.1;Smooth UI. Limited storage options. Worth the investment.
+Apple iPhone 16 Pro 5G, 512 Gt, Mustatitaani;4.5;Sleek design. Bulky design. Overall a solid device.
+Apple iPhone 16 Pro 5G, 512 Gt, Valkotitaani;4.0;Smooth UI. Bulky design. Worth the investment.
+Apple iPhone 16 Pro 5G, 512 Gt, Arotitaani;4.4;Powerful processor. A bit pricey. Meets expectations.
+Apple iPhone 16 Pro 5G, 512 Gt, Luonnontitaani;4.5;Powerful processor. Bulky design. Good for its price range.
+Apple iPhone 16 Pro Max 5G, 256 Gt, Mustatitaani;4.9;Fast performance. Bulky design. Good for its price range.
+Apple iPhone 16 Pro Max 5G, 256 Gt, Valkotitaani;4.5;Powerful processor. Heats up sometimes. Overall a solid device.
+Apple iPhone 16 Pro Max 5G, 256 Gt, Arotitaani;4.3;Great display. Bulky design. Decent performance for daily use.
+Apple iPhone 16 Pro Max 5G, 256 Gt, Luonnontitaani;4.8;Sleek design. Limited storage options. Overall a solid device.
+Apple iPhone 16 Pro Max 5G, 512 Gt, Mustatitaani;3.9;High-quality build. Limited storage options. Overall a solid device.
+Apple iPhone 16 Pro Max 5G, 512 Gt, Valkotitaani;4.4;Smooth UI. Bulky design. Decent performance for daily use.
+Apple iPhone 16 Pro Max 5G, 512 Gt, Arotitaani;4.7;Sleek design. Bulky design. Decent performance for daily use.
+Apple iPhone 16 Pro Max 5G, 512 Gt, Luonnontitaani;4.5;Excellent camera. Battery could be better. Good for its price range.
+Google Pixel 9 5G 128 Gt, Obsidian;3.7;Excellent camera. Bulky design. Meets expectations.
+Google Pixel 9 Pro 5G 128 Gt, Obsidian;4.7;High-quality build. Heats up sometimes. Meets expectations.
+Google Pixel 9a 5G, 128 Gt, Obsidian;4.6;Great display. Battery could be better. Overall a solid device.
+Google Pixel 9 5G 128 Gt, Porcelain;4.3;Fast performance. Battery could be better. Good for its price range.
+Google Pixel 9 5G 128 Gt, Wintergreen;3.7;Fast performance. Software glitches occasionally. Overall a solid device.
+Google Pixel 9 5G 128 Gt, Peony;4.9;Excellent camera. Camera struggles in low light. Meets expectations.
+HMD Fusion X1 5G;4.3;"Solid performance for everyday use."
+HONOR X6b, Musta;3.9;"Battery lasts long but camera is average."
+HONOR X6b, Vihreä;4.1;"Good value, sleek design."
+HONOR 200 5G, Musta;4.5;"Fast 5G connectivity and smooth display."
+Motorola Moto G55 5G, Harmaa;4.2;"Decent battery life and responsive UI."
+OnePlus Nord CE4 Lite 5G, Mega Blue;4.3;"Great for daily use, solid camera."
+OnePlus Nord CE4 Lite 5G, Super Silver;4.2;"Smooth performance, good price."
+OnePlus 13R 5G, Titaani;4.6;"Excellent display and battery."
+OnePlus 13R 5G, Musta;4.5;"Premium feel with fast charging."
+OnePlus 13 5G, 256 Gt, Musta;4.7;"Top-notch camera and smooth performance."
+OnePlus 13 5G, 512 Gt, Musta;4.8;"High storage with superb speed."
+OnePlus Nord 5 5G, 256 Gt, Musta;4.1;"Reliable phone for everyday tasks."
+OnePlus Nord 5 5G, 256 Gt, Valkoinen;4.0;"Good performance but average battery."
+OnePlus Nord 5 5G, 512 Gt, Musta;4.2;"Plenty of storage, solid design."
+OnePlus Nord CE5 5G, 128 Gt, Musta;4.3;"Affordable with decent specs."
+OnePlus Nord CE5 5G, 256 Gt, Musta;4.4;"Good storage and smooth experience."
+OnePlus Nord CE5 5G, 128 Gt, Marble Mist;4.2;"Nice color, solid performance."
+Samsung Galaxy A16 5G, Light Green;3.9;"Budget-friendly but basic features."
+Samsung Galaxy A16 5G, Blue Black;4.0;"Good entry-level 5G phone."
+Samsung Galaxy A26 5G, 128 Gt, Mint;4.1;"Decent display and battery life."
+Samsung Galaxy A26 5G, 256 Gt, Mint;4.2;"More storage, reliable performance."
+Samsung Galaxy A26 5G, 128 Gt, Black;4.0;"Solid budget option."
+Samsung Galaxy A26 5G, 256 Gt, Black;4.1;"Extra storage and smooth UI."
+Samsung Galaxy A26 5G, 128 Gt, White;4.0;"Good build quality for the price."
+Samsung Galaxy A26 5G, 256 Gt, White;4.2;"Fast and spacious for apps and media."
+Samsung Galaxy A36 5G, 128 Gt, Awesome Lavender;4.3;"Stylish color with reliable features."
+Samsung Galaxy A36 5G, 256 Gt, Awesome Lavender;4.4;"High storage, smooth multitasking."
+Samsung Galaxy A36 5G, 128 Gt, Awesome White;4.2;"Sleek design and solid performance."
+Samsung Galaxy A36 5G, 256 Gt, Awesome White;4.3;"Great storage and display quality."
+Samsung Galaxy A36 5G, 128 Gt, Awesome Black;4.1;"Reliable performance, good camera."
+Samsung Galaxy A36 5G, 256 Gt, Awesome Black;4.3;"Spacious storage with fast UI."
+Samsung Galaxy A56 5G, 128 Gt, Awesome Lightgray;4.4;"Smooth performance and decent battery."
+Samsung Galaxy A56 5G, 256 Gt, Awesome Lightgray;4.5;"More storage, excellent display."
+Samsung Galaxy A56 5G, 128 Gt, Awesome Olive;4.3;"Unique color, solid features."
+Samsung Galaxy A56 5G, 256 Gt, Awesome Olive;4.4;"Fast and reliable phone."
+Samsung Galaxy A56 5G, 128 Gt, Awesome Graphite;4.2;"Good camera and smooth operation."
+Samsung Galaxy A56 5G, 256 Gt, Awesome Graphite;4.4;"High storage, nice display."
+Samsung Galaxy Z Flip7 FE 5G, 128 Gt, Black;4.5;"Stylish foldable, great performance."
+Samsung Galaxy Z Flip7 FE 5G, 256 Gt, Black;4.6;"Fast and reliable foldable phone."
+Samsung Galaxy Z Flip7 FE 5G, 128 Gt, White;4.4;"Compact design, smooth experience."
+Samsung Galaxy Z Flip7 5G, 256 Gt, Blue Shadow;4.6;"Premium build and responsive UI."
+Samsung Galaxy Z Flip7 5G, 256 Gt, Jetblack;4.7;"Elegant design with strong performance."
+Samsung Galaxy Z Flip7 5G, 512 Gt, Jetblack;4.8;"Plenty of storage, excellent foldable phone."
+Samsung Galaxy Z Fold7 5G, 256 Gt, Blue Shadow;4.7;"Large display, smooth multitasking."
+Samsung Galaxy Z Fold7 5G, 256 Gt, Jetblack;4.7;"High-end performance and design."
+Samsung Galaxy Z Fold7 5G, 512 Gt, Jetblack;4.8;"Premium storage and exceptional usability."
+Samsung Galaxy XCover7;3.9;"Rugged phone, basic features."
+Samsung Galaxy XCover7 Pro 5G Enterprise Edition, Musta;4.1;"Durable with 5G connectivity."
+Samsung Galaxy S24 FE 5G, 256 Gt, Harmaa;4.5;"Balanced specs and smooth UI."
+Samsung Galaxy S24, 128 Gt, Marble Gray;4.6;"Sleek design, fast performance."
+Samsung Galaxy S24, 256 Gt, Marble Gray;4.7;"Extra storage and top-notch speed."
+Samsung Galaxy S24, 128 Gt, Onyx Black;4.5;"Solid build and smooth experience."
+Samsung Galaxy S24, 256 Gt, Onyx Black;4.6;"Good storage with high performance."
+Samsung Galaxy S24, 128 Gt, Cobalt Violet;4.4;"Unique color, reliable phone."
+Samsung Galaxy S24, 256 Gt, Cobalt Violet;4.5;"High storage, fast processing."
+Samsung Galaxy S24, 128 Gt, Amber Yellow;4.3;"Bright color, decent performance."
+Samsung Galaxy S25 5G, 128 Gt, Navy;4.6;"Fast, smooth, and stylish design."
+Samsung Galaxy S25 5G, 256 Gt, Navy;4.7;"Extra storage and excellent performance."
+Samsung Galaxy S25 5G, 128 Gt, Icy Blue;4.5;"Sleek color, responsive UI."
+Samsung Galaxy S25 5G, 256 Gt, Icy Blue;4.6;"Fast and spacious phone."
+Samsung Galaxy S25 5G, 128 Gt, Mint;4.5;"Nice color, smooth operation."
+Samsung Galaxy S25 5G, 256 Gt, Mint;4.6;"Great storage and battery life."
+Samsung Galaxy S25 5G, 128 Gt, Silver Shadow;4.5;"Premium look and reliable performance."
+Samsung Galaxy S25 5G, 256 Gt, Silver Shadow;4.6;"High storage with fast processing."
+Samsung Galaxy S25+ 5G, 256 Gt, Navy;4.7;"Large display, smooth experience."
+Samsung Galaxy S25+ 5G, 512 Gt, Navy;4.8;"Plenty of storage, excellent performance."
+Samsung Galaxy S25+ 5G, 256 Gt, Icy Blue;4.6;"Good color, reliable phone."
+Samsung Galaxy S25+ 5G, 256 Gt, Mint;4.6;"Smooth operation and decent storage."
+Samsung Galaxy S25+ 5G, 256 Gt, Silver Shadow;4.7;"Premium design and performance."
+Samsung Galaxy S25 Edge 5G, 256 Gt, Titanium Icyblue;4.7;"Elegant and fast, great display."
+Samsung Galaxy S25 Edge 5G, 512 Gt, Titanium Icyblue;4.8;"High storage, premium feel."
+Samsung Galaxy S25 Edge 5G, 256 Gt, Titanium Jetblack;4.7;"Sleek and responsive phone."
+Samsung Galaxy S25 Edge 5G, 512 Gt, Titanium Jetblack;4.8;"Excellent build and speed."
+Samsung Galaxy S25 Edge 5G, 256 Gt, Titanium Silver;4.7;"Solid performance and stylish design."
+Samsung Galaxy S25 Edge 5G, 512 Gt, Titanium Silver;4.8;"Premium storage and smooth UI."
+Samsung Galaxy S25 Ultra 5G, 256 Gt, Titanium Silverblue;4.8;"Fast, spacious, and elegant."
+Samsung Galaxy S25 Ultra 5G, 512 Gt, Titanium Silverblue;4.9;"Top performance with huge storage."
+Samsung Galaxy S25 Ultra 5G, 256 Gt, Titanium Black;4.8;"Premium look, excellent features."
+Samsung Galaxy S25 Ultra 5G, 512 Gt, Titanium Black;4.9;"Outstanding performance and storage."
+Samsung Galaxy S25 Ultra 5G, 256 Gt, Titanium Gray;4.8;"High speed and sleek design."
+Samsung Galaxy S25 Ultra 5G, 512 Gt, Titanium Gray;4.9;"Spacious, fast, and premium build."

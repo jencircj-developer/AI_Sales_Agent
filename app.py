@@ -5,9 +5,17 @@ import numpy as np
 import streamlit as st
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
+import boto3
+import json
 
-# Get Ollama API from environment variable (set in docker-compose.yml)
-API_URL = os.getenv("OLLAMA_API", "http://ollama:11434")
+# Create Bedrock client
+bedrock = boto3.client(
+    service_name="bedrock-runtime",
+    region_name=os.getenv("AWS_REGION", "eu-north-1"),
+    aws_access_key_id=st.secrets["aws"]["AWS_ACCESS_KEY_ID"],
+    aws_secret_access_key=st.secrets["aws"]["AWS_SECRET_ACCESS_KEY"],
+    aws_session_token=st.secrets["aws"]["AWS_SESSION_TOKEN"]  # if using temporary creds
+)
 
 # --- Session state setup ---
 if "chat_history" not in st.session_state:
@@ -31,9 +39,9 @@ if "recommended_products" not in st.session_state:
 # --- Load data ---
 @st.cache_data
 def load_data():
-    products_df = pd.read_csv("data/products.csv")
-    accessories_df = pd.read_csv("data/accessories.csv")
-    satisfaction_df = pd.read_csv("data/smartphone_reviews.csv")
+    products_df = pd.read_csv("data/Phone_portfolio.csv", delimiter=";")
+    accessories_df = pd.read_csv("data/Accessories_portfolio.csv")
+    satisfaction_df = pd.read_csv("data/dummy_reviews.csv", delimiter=";")
     policies_df = pd.read_csv("data/company_policies.csv")
     return products_df, accessories_df, satisfaction_df, policies_df
 
@@ -62,8 +70,8 @@ def generate_ai_summary(results, reviews, query, policy_notes=None):
     """
     policy_notice = ""
     recommendation_text = ""
-    ai_output = ""  # Ensure always defined
- 
+    ai_output = ""
+
     if not results:
         if policy_notes:
             policy_notice = (
@@ -72,7 +80,7 @@ def generate_ai_summary(results, reviews, query, policy_notes=None):
             )
         else:
             policy_notice = "😔 Unfortunately, no products were found matching your search."
- 
+
         recommendation_text = (
             "As your friendly sales agent, I suggest trying other devices allowed for your role, "
             "adjusting your search filters, or exploring alternative features you might be interested in."
@@ -80,25 +88,34 @@ def generate_ai_summary(results, reviews, query, policy_notes=None):
     else:
         if policy_notes:
             policy_notice = f"⚠️ Policy restrictions applied: {'; '.join(policy_notes)}"
- 
+
         recommendation_text = f"Hello! Based on your search '{query}', here are some great options I recommend:\n\n"
         for idx, (device, accs) in enumerate(results, start=1):
-            recommendation_text += f"{idx}. **{device['name']}** — ${device['price']} — ⭐ {device['avg_rating']}\n"
-            recommendation_text += f"Description: {device['description']}\n"
+            recommendation_text += f"{idx}. **{device['name']}** — €{device['price']} — ⭐ {device['avg_rating']}\n"
+            recommendation_text += f"\nDescription: {device['description']}\n"
             if accs:
                 recommendation_text += "Accessories you might love: " + ", ".join(a['name'] for a in accs) + "\n"
             reviews_text = reviews[idx-1] if reviews else "No reviews available."
             recommendation_text += f"Customer Feedback: {reviews_text[:200]}...\n\n"
- 
-        # Add sales-agent order suggestion
+
         recommendation_text += "I’m here to help you pick the perfect device and accessories! Shall I order the selected phone for you?"
- 
+
     # Build prompt for AI
     summary_prompt = ""
     if policy_notice:
         summary_prompt += f"POLICY NOTICE: {policy_notice}\n\n"
     summary_prompt += recommendation_text
- 
+
+    # Shared system role instruction
+    system_role = (
+        "You are a friendly, persuasive sales agent for mobile phones and accessories. "
+        "ONLY treat the provided store products as available for purchase here. "
+        "You MAY also mention other popular phones outside the provided store list, "
+        "but whenever you do, always clarify clearly with a note like: "
+        "'⚠️ This device may not be available in our store — consider purchasing it elsewhere.' "
+        "Never mislead the user into thinking unavailable devices are in stock."
+    )
+
     # --- AI call with OpenAI + Llama fallback ---
     try:
         from openai import OpenAI
@@ -106,36 +123,44 @@ def generate_ai_summary(results, reviews, query, policy_notes=None):
         resp = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": "You are a friendly, persuasive sales agent for tech devices and accessories."},
+                {"role": "system", "content": system_role},
                 {"role": "user", "content": summary_prompt}
             ],
             max_tokens=400
         )
         ai_output = resp.choices[0].message.content.strip()
     except Exception as e:
-        st.warning(f"OpenAI not available ({e}), falling back to local Llama/Mistral model...")
+        st.warning(f"OpenAI not available ({e}), falling back to AWS Bedrock Mistral...")
         try:
-            import requests, json
-            response = requests.post(
-                f"{API_URL}/api/generate",
-                json={"model": "mistral", "prompt": summary_prompt},
-                stream=True,
-                timeout=60,
-            )
-            response.raise_for_status()
-            summary_chunks = []
-            for line in response.iter_lines():
-                if line:
-                    try:
-                        data = json.loads(line.decode("utf-8"))
-                        if "response" in data:
-                            summary_chunks.append(data["response"])
-                    except json.JSONDecodeError:
-                        continue
-            ai_output = "".join(summary_chunks).strip()
+            kwargs = {
+                "modelId": "eu.mistral.pixtral-large-2502-v1:0",
+                "contentType": "application/json",
+                "accept": "application/json",
+                "body": json.dumps({
+                    "messages": [
+                        {
+                            "role": "user",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": f"System role:\n{system_role}\n\nUser request:\n{summary_prompt}"
+                                }
+                            ]
+                        }
+                    ]
+                })
+            }
+            response = bedrock.invoke_model(**kwargs)
+            response_body = response['body'].read()
+            output = json.loads(response_body)
+
+            # Print the assistant's reply
+            ai_output = output['choices'][0]['message']['content']
+        except Exception as e:
+            ai_output = f"⚠️ AI summary skipped — no OpenAI or Bedrock available ({e})."
         except Exception as e:
             ai_output = f"⚠️ AI summary skipped — no OpenAI or Llama available ({e})."
- 
+
     return ai_output, policy_notice
     
 # --- Helper: OpenAI / Llama for Order AI ---
@@ -154,24 +179,30 @@ def call_order_ai(prompt_text, system_role="You are a friendly Order AI assistan
     except Exception as e:
         st.warning(f"OpenAI not available ({e}), falling back to local Llama model...")
         try:
-            import requests, json
-            response = requests.post(
-                f"{API_URL}/api/generate",
-                json={"model": "mistral", "prompt": prompt_text},
-                stream=True,
-                timeout=60,
-            )
-            response.raise_for_status()
-            chunks = []
-            for line in response.iter_lines():
-                if line:
-                    try:
-                        data = json.loads(line.decode("utf-8"))
-                        if "response" in data:
-                            chunks.append(data["response"])
-                    except json.JSONDecodeError:
-                        continue
-            ai_output = "".join(chunks).strip()
+            kwargs = {
+                "modelId": "eu.mistral.pixtral-large-2502-v1:0",
+                "contentType": "application/json",
+                "accept": "application/json",
+                "body": json.dumps({
+                    "messages": [
+                        {
+                            "role": "user",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": f"System role:\n{system_role}\n\nUser request:\n{prompt_text}"
+                                }
+                            ]
+                        }
+                    ]
+                })
+            }
+            response = bedrock.invoke_model(**kwargs)
+            response_body = response['body'].read()
+            output = json.loads(response_body)
+
+            # Print the assistant's reply
+            ai_output = output['choices'][0]['message']['content']
         except Exception as e:
             ai_output = f"⚠️ Order AI unavailable ({e})"
     return ai_output
@@ -341,7 +372,7 @@ if prompt := st.chat_input("Ask about a device..."):
                     accessories = accessories_df[accessories_df["compatible_skus"].str.contains(device["sku"], na=False)]
                     accessories_list = accessories.to_dict(orient="records")
                     model_reviews_df = satisfaction_df[satisfaction_df["model_name"] == device["name"]]
-                    avg_rating = round(model_reviews_df["star_rating"].mean(), 1) if not model_reviews_df.empty else "N/A"
+                    avg_rating = round(pd.to_numeric(model_reviews_df["star_rating"], errors='coerce').mean(), 1) if not model_reviews_df.empty else "N/A"
                     device["avg_rating"] = avg_rating
                     reviews = " ".join(model_reviews_df["review_text"].tolist()) if not model_reviews_df.empty else "No reviews available."
                     review_texts.append(reviews)
@@ -354,14 +385,23 @@ if prompt := st.chat_input("Ask about a device..."):
 
             if results:
                 st.markdown("### Recommended devices available in store for sale:")
-                st.session_state.recommended_products = []
+                # Build table data
+                table_data = []
                 for idx, (device, accs) in enumerate(results, start=1):
-                    st.markdown(f"{idx}. 📱 **{device['name']}** — ${device['price']} — ⭐ {device['avg_rating']}")
-                    st.write(device["description"])
-                    if accs:
-                        st.markdown("🛍 **Accessories:** " + ", ".join(f"{a['name']} (${a['price']})" for a in accs))
-                    st.markdown("---")
+                    accessories_str = ", ".join(a['name'] for a in accs) if accs else "None"
+                    table_data.append({
+                        "Device": device['name'],
+                        "Price": f"€ {device['price']}",
+                        "Rating": f"⭐ {device['avg_rating']}",
+                    })
+                    # Keep the recommended products in session state
                     st.session_state.recommended_products.append(device)
+
+                # Convert to DataFrame
+                df = pd.DataFrame(table_data)
+
+                # Render table in Streamlit
+                st.dataframe(df, use_container_width=True)
                 st.session_state.awaiting_order_confirmation = True
 
             st.subheader("✨ Personalized Recommendation Summary")

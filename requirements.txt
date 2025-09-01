@@ -7,3 +7,4 @@ requests
 ollama
 python-dotenv
 matplotlib
+boto3
